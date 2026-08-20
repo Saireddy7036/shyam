@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shyam Groceries Store | Online Grocery Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-container">
+      <span><i class="fa-solid fa-phone"></i> Orders & Support: <strong>+44 7466205639</strong></span>
+      <span><i class="fa-solid fa-truck"></i> Free UK Delivery on orders over £40</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-basket-shopping"></i> Shyam Groceries Store
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search fresh produce, dairy, bakery...">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="nav-actions">
+      <a href="#contact" class="nav-btn"><i class="fa-solid fa-location-dot"></i> Contact Us</a>
+      <a href="#checkout" class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Cart <span class="cart-count">5</span></a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Fresh UK Produce Delivered to Your Doorstep</h1>
+      <p>Farm-fresh vegetables, organic fruits, and daily essentials with fast delivery across the UK.</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Popular Categories</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <i class="fa-solid fa-apple-whole"></i>
+        <span>Fruits & Veggies</span>
+      </div>
+      <div class="category-card">
+        <i class="fa-solid fa-cheese"></i>
+        <span>Dairy & Eggs</span>
+      </div>
+      <div class="category-card">
+        <i class="fa-solid fa-bread-slice"></i>
+        <span>Bakery</span>
+      </div>
+      <div class="category-card">
+        <i class="fa-solid fa-bottle-water"></i>
+        <span>Beverages</span>
+      </div>
+      <div class="category-card">
+        <i class="fa-solid fa-drumstick-bite"></i>
+        <span>Meat & Fish</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <span class="badge">Organic</span>
+        <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&q=80&w=400" alt="Fresh Apples">
+        <div class="product-info">
+          <span class="category-tag">Fruits</span>
+          <h3>Fresh Red Apples</h3>
+          <p class="unit">1 kg</p>
+          <div class="price-row">
+            <span class="price">£2.99</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=400" alt="Whole Milk">
+        <div class="product-info">
+          <span class="category-tag">Dairy</span>
+          <h3>Organic Whole Milk</h3>
+          <p class="unit">2 Litres</p>
+          <div class="price-row">
+            <span class="price">£1.85</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <span class="badge">Fresh</span>
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400" alt="Artisan Bread">
+        <div class="product-info">
+          <span class="category-tag">Bakery</span>
+          <h3>Artisan Sourdough Bread</h3>
+          <p class="unit">1 Loaf</p>
+          <div class="price-row">
+            <span class="price">£3.20</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&q=80&w=400" alt="Fresh Tomatoes">
+        <div class="product-info">
+          <span class="category-tag">Vegetables</span>
+          <h3>Organic Tomatoes</h3>
+          <p class="unit">500g</p>
+          <div class="price-row">
+            <span class="price">£2.15</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+        <span class="badge">Organic</span>
+        <img src="https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&q=80&w=400" alt="Avocados">
+        <div class="product-info">
+          <span class="category-tag">Fruits</span>
+          <h3>Ripe Avocados</h3>
+          <p class="unit">Pack of 2</p>
+          <div class="price-row">
+            <span class="price">£1.95</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400" alt="Basmati Rice">
+        <div class="product-info">
+          <span class="category-tag">Pantry</span>
+          <h3>Premium Basmati Rice</h3>
+          <p class="unit">1 kg</p>
+          <div class="price-row">
+            <span class="price">£2.80</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <span class="badge">Free Range</span>
+        <img src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=400" alt="Free Range Eggs">
+        <div class="product-info">
+          <span class="category-tag">Dairy & Eggs</span>
+          <h3>Large Free-Range Eggs</h3>
+          <p class="unit">6 Pack</p>
+          <div class="price-row">
+            <span class="price">£2.40</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=400" alt="Fresh Orange Juice">
+        <div class="product-info">
+          <span class="category-tag">Beverages</span>
+          <h3>Squeezed Orange Juice</h3>
+          <p class="unit">1 Litre</p>
+          <div class="price-row">
+            <span class="price">£2.60</span>
+            <button class="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Checkout & Payment Options Section -->
+  <section class="checkout-section" id="checkout">
+    <h2>Secure Express Checkout</h2>
+    <p class="checkout-sub">We accept all major debit & credit cards, Stripe, and Square payments.</p>
+
+    <div class="payment-methods-wrapper">
+      <!-- Method 1: All Major Cards -->
+      <div class="payment-card border-stripe">
+        <div class="payment-header">
+          <i class="fa-regular fa-credit-card payment-icon"></i>
+          <div>
+            <h3>Debit & Credit Cards</h3>
+            <p>Fast checkout via Stripe Gateway</p>
+          </div>
+        </div>
+        <div class="card-icons">
+          <i class="fa-brands fa-cc-visa" title="Visa"></i>
+          <i class="fa-brands fa-cc-mastercard" title="Mastercard"></i>
+          <i class="fa-brands fa-cc-amex" title="American Express"></i>
+          <i class="fa-brands fa-cc-discover" title="Discover"></i>
+        </div>
+        <button class="pay-btn stripe-btn"><i class="fa-brands fa-stripe"></i> Pay with Stripe</button>
+      </div>
+
+      <!-- Method 2: Square Payment -->
+      <div class="payment-card border-square">
+        <div class="payment-header">
+          <i class="fa-solid fa-square-poll-vertical payment-icon square-color"></i>
+          <div>
+            <h3>Square Payments</h3>
+            <p>Pay safely with Square Terminal</p>
+          </div>
+        </div>
+        <div class="card-icons">
+          <i class="fa-brands fa-square-font" title="Square Pay"></i>
+          <i class="fa-brands fa-apple-pay" title="Apple Pay"></i>
+          <i class="fa-brands fa-google-pay" title="Google Pay"></i>
+        </div>
+        <button class="pay-btn square-btn"><i class="fa-solid fa-shield-halved"></i> Pay with Square</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Store Locations Section -->
+  <section class="contact-section" id="contact">
+    <h2>Get in Touch & Our Locations</h2>
+    <p class="contact-sub">Have questions or want to visit our physical stores? Find us below.</p>
+
+    <div class="contact-grid">
+      
+
+      <!-- Main Store Address -->
+      <div class="contact-card">
+        <div class="contact-icon"><i class="fa-solid fa-store"></i></div>
+        <h3>Shyam Groceries Store</h3>
+        <p><strong>Address:</strong> 12 Herbert Road, Ilford, London, IG3 8AL</p>
+        <p><strong>Store Phone:</strong> +44 7466205639</p>
+        <p><strong>Opening Hours:</strong> Daily 7:00 AM - 10:00 PM</p>
+      </div>
+
+     
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>Shyam Groceries Store</h3>
+        <p>Your one-stop online shop for fresh groceries and household essentials.</p>
+        <div class="accepted-payments">
+          <span>Accepted Payments:</span>
+          <div class="footer-card-icons">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-amex"></i>
+            <i class="fa-brands fa-stripe"></i>
+            <i class="fa-solid fa-square-poll-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Store Contact</h4>
+        <p><i class="fa-solid fa-phone"></i> +44 7466205639</p>
+        <p><i class="fa-solid fa-envelope"></i> support@Shyam Groceries Store.co.uk</p>
+        <p><i class="fa-solid fa-location-dot"></i> 124 High Street, London, E1 7PT</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#products">Shop Products</a></li>
+          <li><a href="#checkout">Payment Options</a></li>
+          <li><a href="#contact">Store Locations</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Shyam Groceries Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
